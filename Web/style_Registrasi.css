@@ -1,0 +1,133 @@
+*{
+    box-sizing:border-box;
+    padding: 0%;
+    margin: 0%;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* bar */
+.navbar{
+    position: fixed;
+    text-align: right;
+    width: 100%;
+    height: 48px;
+    left: 0px;
+    top: 0px; 
+    background: linear-gradient(270deg, #3897CA 57.01%, rgba(56, 151, 202, 0) 100%);
+}
+
+.logo {
+    width: 98px;
+    float: left;
+    padding-left: 10px;
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li  {
+    display: inline-block;
+    line-height: 47px;
+    margin: 0 3px;
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    padding-inline-end: 40px;
+    
+    padding: 8px;
+    border-radius: 12px;
+
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+} 
+
+a.active, a:hover {
+    background: linear-gradient(180deg, #71C1EE 0%, #55A1CB 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+    transition: .3s;
+}
+
+.registrasiText .textReg{ 
+        position: absolute;
+        width: 700px;
+        height: 30px;
+        left: 380px;
+        top: 98px;
+    
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 44px;
+        line-height: 40px;
+}
+
+.registrasiText .textReg2 {
+    position: absolute;
+    width: 396px;
+    height: 60px;
+    left: 451px;
+    top: 160px;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.25);
+}
+
+.box{
+    width: 200px;
+    padding: 40px;
+    position: absolute;
+    top: 170px;
+    left: 325px;
+    /* transform: translate(-50%,-50%); */
+    /* text-align: center; */
+}
+
+.box input[type = "text"], .box input[type = "password"]{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    
+    border: 3px solid #E9E9E9;
+    border-radius: 40px;
+    /* box-sizing: border-box; */
+    /* background: none; */
+    padding: 12px 10px; 
+
+    width: 550px;
+    display: block;
+    margin: 10px auto;
+    text-align: left;
+    color: #B7B7B7; 
+}   
+
+.box input[type="submit"] {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    color: #FFFFFF; 
+    background: #1F88C1;
+    border: 3px;
+    border-radius: 40px;
+    padding: 14px 10px; 
+
+    width: 275px;
+    position: absolute;
+    left: 185px;
+    top: 285px;
+    text-align: center;
+}
