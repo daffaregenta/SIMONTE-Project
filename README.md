@@ -1,2 +1,2 @@
 # SIMONTE-Project
-Website
+Pembuatan aplikasi sistem monitoring hewan ternak. 
